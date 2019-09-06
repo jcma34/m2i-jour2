@@ -1,0 +1,4 @@
+#ignore le répertoire "logs" et son contenu 
+/logs/* 
+#sauf le fichier .gitkeep. Attention cette ligne doit se trouver après la précédente (/log/*) 
+!/logs/.gitkeep 
